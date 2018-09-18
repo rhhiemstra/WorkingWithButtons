@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+    <ImageView
+        android:id="@+id/flagImg"
+        android:layout_width="fill_parent"
+        android:layout_height="60dp"
+        android:layout_alignParentRight="true"
+        android:src="@drawable/american"
+
+        />
+    <TextView
+
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/txtId"
+        android:text="Hello World!"
+        android:layout_below="@+id/flagImg"
+
+
+        android:textSize="50sp"
+        />
+
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txtId"
+        android:id="@+id/frBtn"
+        android:text="French"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/frBtn"
+        android:id="@+id/english"
+        android:text="English"
+        />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/english"
+        android:id="@+id/spanish"
+        android:text="spanish"/>
+
+</RelativeLayout>
